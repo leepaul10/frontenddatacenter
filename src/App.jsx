@@ -262,7 +262,7 @@ export default function App() {
                 .map((field) => (
                   <div key={field} style={{ flex: 1 }}>
                     <label>
-                      {field} ({FIELD_LIMITS[field].min}-{FIELD_LIMITS[field].max})
+                      {field}
                     </label>
                     <input
                       type="number"
